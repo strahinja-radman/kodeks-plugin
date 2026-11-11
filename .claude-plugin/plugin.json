@@ -1,0 +1,24 @@
+{
+  "name": "kodeks",
+  "description": "Crnogorski propisi i sudska praksa sa kodeks.me u vašem asistentu: pravno mišljenje o predmetu sa citatima koje kodeks.me provjerava, i provjera citata u podnescima. Dokumenti predmeta ostaju kod vas.",
+  "version": "0.1.0",
+  "mcpServers": "./.mcp.json",
+  "author": {
+    "name": "Kodeks.me",
+    "url": "https://kodeks.me"
+  },
+  "homepage": "https://kodeks.me",
+  "repository": "https://github.com/strahinja-radman/kodeks-plugin",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://kodeks.me/privatnost",
+  "icon": "./assets/icon.png",
+  "keywords": [
+    "pravo",
+    "crna gora",
+    "propisi",
+    "sudska praksa",
+    "pravno mišljenje",
+    "advokat",
+    "kodeks"
+  ]
+}

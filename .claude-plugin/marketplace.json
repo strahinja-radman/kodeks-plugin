@@ -1,0 +1,26 @@
+{
+  "$schema": "https://code.claude.com/schemas/marketplace.json",
+  "name": "kodeks",
+  "description": "Kodeks.me za advokate: crnogorski propisi i sudska praksa u Claude-u.",
+  "owner": {
+    "name": "Kodeks.me",
+    "url": "https://kodeks.me"
+  },
+  "plugins": [
+    {
+      "name": "kodeks",
+      "source": "./",
+      "description": "Pravno mišljenje o predmetu sa citatima propisa i sudske prakse koje kodeks.me provjerava, i provjera citata u podnescima.",
+      "homepage": "https://kodeks.me",
+      "keywords": [
+        "pravo",
+        "crna gora",
+        "propisi",
+        "sudska praksa",
+        "advokat"
+      ],
+      "repository": "https://github.com/strahinja-radman/kodeks-plugin",
+      "license": "MIT"
+    }
+  ]
+}

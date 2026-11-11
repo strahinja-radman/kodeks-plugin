@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "kodeks": {
+      "type": "http",
+      "url": "https://kodeks.me/mcp"
+    }
+  }
+}

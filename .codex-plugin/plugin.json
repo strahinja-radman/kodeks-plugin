@@ -1,0 +1,43 @@
+{
+  "name": "kodeks",
+  "version": "0.1.0",
+  "description": "Crnogorski propisi i sudska praksa sa kodeks.me: pravno mišljenje o predmetu sa citatima koje kodeks.me provjerava, i provjera citata u podnescima.",
+  "author": {
+    "name": "Kodeks.me",
+    "url": "https://kodeks.me"
+  },
+  "homepage": "https://kodeks.me",
+  "repository": "https://github.com/strahinja-radman/kodeks-plugin",
+  "license": "MIT",
+  "keywords": [
+    "pravo",
+    "crna gora",
+    "propisi",
+    "sudska praksa",
+    "pravno mišljenje",
+    "advokat"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Kodeks.me",
+    "shortDescription": "Crnogorsko pravo i sudska praksa",
+    "longDescription": "Pretraga crnogorskih propisa (prečišćeni tekstovi, verzija na dan) i sudske prakse sa kodeks.me, pravno mišljenje o predmetu sa argumentima obje strane i citatima koje kodeks.me provjerava, i provjera citata u podnescima. Dokumenti predmeta ostaju u vašem asistentu.",
+    "developerName": "Kodeks.me",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://kodeks.me",
+    "defaultPrompt": [
+      "Izradi pravno mišljenje o ovom predmetu iz priloženih dokumenata",
+      "Provjeri citate propisa i presuda u ovom podnesku",
+      "Koji član zakona uređuje ovo pitanje i kako ga sudovi primjenjuju?"
+    ],
+    "privacyPolicyURL": "https://kodeks.me/privatnost",
+    "termsOfServiceURL": "https://kodeks.me/uslovi",
+    "brandColor": "#8A3B2E",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/icon.svg"
+  }
+}
