@@ -14,9 +14,11 @@ Dokumenti predmeta ostaju u vašem asistentu: kodeks.me prima samo pravne pojmov
 
 ## Instalacija u Claude
 
-1. Settings → Connectors → Add custom connector, adresa `https://kodeks.me/mcp`, pa Connect: prijavite se na kodeks.me (lozinka i kod iz authenticator aplikacije) i odobrite pristup.
-2. Dodajte plugin: Customize → Plugins → Add marketplace, upišite `strahinja-radman/kodeks-plugin` i instalirajte plugin **kodeks**. U Claude Code: `/plugin marketplace add strahinja-radman/kodeks-plugin`, pa `/plugin install kodeks@kodeks`.
-3. U razgovoru priložite dokumente predmeta i pokrenite `/pravno-misljenje` ili zatražite pravno mišljenje.
+Uputstvo sa slikama, za Claude, Claude Team/Enterprise, ChatGPT i Claude Code: [kodeks.me/konektor](https://kodeks.me/konektor).
+
+1. Dodajte konektor: [ovaj link](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Kodeks.me&connectorUrl=https%3A%2F%2Fkodeks.me%2Fmcp) otvara Customize → Connectors → Add custom connector sa upisanim imenom i adresom `https://kodeks.me/mcp`. Ostavite opcije koje Claude označi sa Detected (Sign in now, Register automatically), kliknite Add, pa Connect: prijavite se na kodeks.me (lozinka i kod iz authenticator aplikacije) i odobrite pristup.
+2. Dodajte plugin: [Customize → Plugins](https://claude.ai/customize/plugins) → Add → Add marketplace, upišite `strahinja-radman/kodeks-plugin` i dodajte plugin **kodeks**. U [Settings → Capabilities](https://claude.ai/settings/capabilities) uključite izvršavanje koda. U Claude Code: `/plugin marketplace add strahinja-radman/kodeks-plugin`, pa `/plugin install kodeks@kodeks`, pa `/mcp` → kodeks → Authenticate.
+3. U razgovoru uključite Kodeks.me (+ → Connectors), priložite dokumente predmeta i pokrenite `/pravno-misljenje` ili zatražite pravno mišljenje.
 
 ## Licenca
 

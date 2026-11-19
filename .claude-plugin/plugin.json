@@ -1,7 +1,7 @@
 {
   "name": "kodeks",
   "description": "Crnogorski propisi i sudska praksa sa kodeks.me u vašem asistentu: pravno mišljenje o predmetu sa citatima koje kodeks.me provjerava, i provjera citata u podnescima. Dokumenti predmeta ostaju kod vas.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "mcpServers": "./.mcp.json",
   "author": {
     "name": "Kodeks.me",
